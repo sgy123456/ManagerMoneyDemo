@@ -401,7 +401,32 @@ container
     background-color: #ccc !important;
     cursor: not-allowed;
 }
-
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.footer-content .brand {
+    float: left;
+    display: block;
+    /*-webkit-filter: grayscale(100%);*/
+    filter: grayscale(100%);
+    width: 20%;
+    height: 35px;
+    background: url('../img/logo@1x.png') no-repeat left;
+    background-size: 150px 35px;
+}
+.footer-content ul{
+    float: left;
+    width: 15%;
+}
+.footer-content ul .title{
+    font-size: 2rem;
+}
+.footer-content ul li {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
 /* 底部 */
 
 footer {
